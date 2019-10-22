@@ -1,0 +1,1357 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+
+    <!-- Basic Page Needs
+	================================================== -->
+    <meta charset="utf-8">
+
+    <!-- Mobile Specific Metas
+
+    ================================================== -->
+
+    <!--FONT-->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> ,
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+
+    <!-- Site Title -->
+    <title>5. Geleneksel İşletmecilik ve Teknoloji Zirvesi</title>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- CSS
+	================================================== -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Template styles-->
+    <link rel="stylesheet" href="css/style.css?version=1.0.1">
+    <!-- Responsive styles-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Colorbox -->
+    <link rel="stylesheet" href="css/colorbox.css">
+
+
+
+</head>
+
+<body>
+
+
+
+    <div class="body-inner">
+
+        <!-- Header start -->
+        <header id="header" class="header navbar-fixed-top">
+            <div class="container myHeader">
+                <div class="row">
+                    <div class="navbar-header">
+                        <div class="logo">
+                            <a href="index.html">
+                                <span class="itz">İTZ</span>
+                                <span class="itz2">'19</span>
+                            </a>
+                        </div>
+                        <!-- logo end -->
+                    </div>
+                    <!-- Navbar header end -->
+
+                    <div class="site-nav-inner">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <nav class="collapse navbar-collapse navbar-responsive-collapse pull-right">
+
+                            <ul class="nav navbar-nav">
+
+                                <li>
+                                    <a id="home" href="#banner" class="smoothScroll dropdown-toggle">ANASAYFA
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="about" href="#ts-intro" class="smoothScroll dropdown-toggle">ZİRVE HAKKINDA
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a id="speakers" href="#ts-speakers" class="smoothScroll dropdown-toggle">KONUŞMACILAR
+                                    </a>
+
+                                </li>
+                                <li>
+                                    <a id="schedule" href="#ts-schedule" class="smoothScroll dropdown-toggle">TAKVİM
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="gallery" href="#ts-gallery" class="smoothScroll dropdown-toggle">FOTOĞRAF GALERİSİ</a>
+
+                                </li>
+                                <li>
+                                    <a id="schedule" href="#ts-sponsors" class="smoothScroll dropdown-toggle">SPONSORLARIMIZ
+                                    </a>
+                                </li>
+                                <li>
+                                    <a id="contact" href="#ts-venue" class="smoothScroll dropdown-toggle">İLETİŞİM</a>
+
+                                </li>
+
+
+
+                            </ul>
+                            <!--/ Nav ul end -->
+
+                        </nav>
+                        <!--/ Collapse end -->
+
+                    </div>
+                    <!--/ Site nav inner end -->
+                </div>
+                <!--/ Row end -->
+            </div>
+            <!--/ Container end -->
+            <div class="itzNav col-sm-12">
+                <div class="container">
+
+                    <ul class="nav pull-right">
+                        <li>
+                        <a class="itz" href="index.html">İTZ
+                            <span>'19</span>
+                        </a>
+                        </li> 
+                        <li>
+                             <a href="itz18.html">İTZ
+                                <span>'18</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="itz17.html">İTZ
+                                <span>'17</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="itz16.html">İTZ
+                                <span>'16</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!--/ Collapse end -->
+
+
+                    <!--/ Site nav inner end -->
+                </div>
+                <!--/ Row end -->
+            </div>
+    </div>
+
+    </header>
+
+
+
+
+    <!--/ Header end -->
+
+    <section id="banner">
+        <div class="banner-item bg-overlay" style="background-image:url(images/hero-area/back3.jpg)">
+            <div class="container">
+                <div class="banner-content">
+                    <div class="banner-content-left">
+                        <div class="countdown">
+
+
+
+                            <div class="counter-day">
+                                <span id="days">00</span>
+                                <div class="smalltext">GÜN</div>
+                            </div>
+                            <div class="counter-hour">
+                                <span id="hours">00</span>
+                                <div class="smalltext">SAAT</div>
+                            </div>
+                            <div class="counter-minute">
+                                <span id="minutes">00</span>
+                                <div class="smalltext">DAKİKA</div>
+                            </div>
+                            <div class="counter-second">
+                                <span id="seconds">00</span>
+                                <div class="smalltext">SANİYE</div>
+                            </div>
+                            <p id="demo"></p>
+                            <script>
+                                // Set the date we're counting down to
+                                var countDownDate = new Date("Apr 18, 2019 09:00:00").getTime();
+
+                                // Update the count down every 1 second
+                                var x = setInterval(function () {
+
+                                    // Get todays date and time
+                                    var now = new Date().getTime();
+
+                                    // Find the distance between now an the count down date
+                                    var distance = countDownDate - now;
+
+                                    // Time calculations for days, hours, minutes and seconds
+                                    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                                    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 *
+                                        60));
+                                    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                                    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                                    // Display the result in the element with id="demo"
+                                    document.getElementById("days").innerHTML = days;
+
+                                    document.getElementById("hours").innerHTML = hours;
+                                    document.getElementById("minutes").innerHTML = minutes;
+                                    document.getElementById("seconds").innerHTML = seconds;
+
+                                    // If the count down is finished, write some text 
+                                    if (distance < 0) {
+                                        clearInterval(x);
+                                        document.getElementById("days").innerHTML = "EXPIRED";
+
+                                        document.getElementById("hours").innerHTML = "EXPIRED";
+                                        document.getElementById("minutes").innerHTML = "EXPIRED";
+                                        document.getElementById("seconds").innerHTML = "EXPIRED";
+                                        document.getElementById("demo").innerHTML = "EXPIRED";
+                                    }
+                                }, 1000);
+                            </script>
+                        </div>
+                        <!-- Countdown end -->
+                        <h1 class="banner-title">İŞLETMECİLİK ve TEKNOLOJİ ZİRVESİ</h1>
+                        <h2 class="banner-subtitle">ERDEMLİ/MERSİN, 18-19-20 NİSAN 2019</h2>
+                        <!-- <p class="banner-btn">
+                                <a href="#" class="btn btn-primary">Şimdi Kaydol</a>
+                                <a href="#" class="btn btn-border">Tanıtım İzle</a>
+                            </p>-->
+                    </div>
+                    <!-- Banner content wrap end -->
+                </div>
+                <!-- Banner content end -->
+            </div>
+            <!-- Container end -->
+        </div>
+        <!-- Banner item end -->
+    </section>
+    <!-- Section banner end -->
+
+
+    <section id="ts-intro" class="ts-intro">
+        <div class="container">
+            <div class="row text-center">
+                <h2 class="section-title">Neden Katılmalıyım?</h2>
+                <h3 class="section-sub-title">Etkinlikte Neler Var</h3>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="feature-box-center">
+                        <span class="feature-box-media">
+                            <img src="images/icons/reinvent.png" alt="">
+                        </span>
+                        <div class="feature-box-content">
+                            <h3 class="feature-title">Deneyimleri Yönlendirme</h3>
+                            <p>Erdemli Yüksekokullar Sosyal ve Kültürel Etkinlikler Topluluğu tarafından "İşletmecilik ve Teknoloji
+                                Zirvesi" adıyla bu yıl dördüncüsü gerçekleştirilecek olan büyük buluşma.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-3">
+                    <div class="feature-box-center">
+                        <span class="feature-box-media">
+                            <img src="images/icons/keynotes.png" alt="">
+                        </span>
+                        <div class="feature-box-content">
+                            <h3 class="feature-title">İlham Verici Konuşmalar</h3>
+                            <p>Hayatta karşılaşabileceğiniz zorluklar veya sorunlar ile alakalı sunumlar sizleri bekliyor. Bu
+                                sunumlar ileride iş hayatınızda oldukça işinize yarayacak.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-3">
+                    <div class="feature-box-center">
+                        <span class="feature-box-media">
+                            <img src="images/icons/fact-speaker.png" alt="">
+                        </span>
+                        <div class="feature-box-content">
+                            <h3 class="feature-title">Öğrenme Oturumları</h3>
+                            <p>Alanında uzman, kariyer sahibi, birbirinden değerli 8 konuşmacı sunumlarını yapacak. Sunum sonunda
+                                ve kahve molalarında sohbet için sizleri bekliyor olacaklar.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-3">
+                    <div class="feature-box-center">
+                        <span class="feature-box-media">
+                            <img src="images/icons/food.png" alt="">
+                        </span>
+                        <div class="feature-box-content">
+                            <h3 class="feature-title">Yeni Arkadaşlıklar</h3>
+                            <p>Karşılıklı deneyimlerinizi paylaşabileceğiniz, aynı projeler üzerinde çalışabileceğiniz ve sosyal
+                                hayatta arkadaş olabileceğiniz yeni insanlar sizleri bekliyor.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="ts-speakers" class="ts-speakers-bg bg-overlay">
+        <div class="container">
+            <div class="row text-center">
+
+                <h3 class="section-sub-title title-white">Geçen Yıl</h3>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="ts-speaker">
+                        <div class="ts-speaker-image">
+                            <img class="img-responsive" src="images/speakers/2018/atif.jpg" alt="" />
+                            <ul class="social-links">
+                                <li>
+                                    <a href="https://www.instagram.com/atifunaldi/">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/atifunaldi/">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/atifunaldi">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/atifunaldi">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="ts-speaker-info">
+                            <h3 class="ts-speaker-name">
+                                <a href="#">Atıf Ünaldı</a>
+                            </h3>
+                            <p class="ts-speaker-designation">Businessweek Köşe Yazarı</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="ts-speaker">
+                        <div class="ts-speaker-image">
+                            <img class="img-responsive" src="images/speakers/2018/bulent.jpg" alt="" />
+                            <ul class="social-links">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/bulentkutlu/">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ts-speaker-info">
+                            <h3 class="ts-speaker-name">
+                                <a href="#">Bülent Kutlu</a>
+                            </h3>
+                            <p class="ts-speaker-designation">Chief Digital Officer</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="ts-speaker transparent">
+                        <div class="ts-speaker-image">
+                            <img class="img-responsive" src="images/speakers/2018/tugba.jpg" alt="" />
+                            <ul class="social-links">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="ts-speaker-info">
+                            <h3 class="ts-speaker-name">
+                                <a href="#">Tuğba Bademci</a>
+                            </h3>
+                            <p class="ts-speaker-designation">Kişisel Gelişim Eğitmeni</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="ts-speaker transparent">
+                        <div class="ts-speaker-image">
+                            <img class="img-responsive" src="images/speakers/2018/daron.jpg" alt="" />
+                            <ul class="social-links">
+                                <li>
+                                    <a href="https://www.instagram.com/daronyondem/?hl=tr">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/daronyondem">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/daronyoendem/">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/daronyondem">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="ts-speaker-info">
+                            <h3 class="ts-speaker-name">
+                                <a href="#">Daron Yöndem</a>
+                            </h3>
+                            <p class="ts-speaker-designation">Microsoft Regional Director</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="gap-40"></div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="ts-speaker transparent">
+                        <div class="ts-speaker-image">
+                            <img class="img-responsive" src="images/speakers/2018/ahmet.jpg" alt="" />
+                            <ul class="social-links">
+                                <li>
+                                    <a href="https://www.instagram.com/ahmetturankutuk/">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/ahmet-turan-k%C3%BCt%C3%BCk-95407b78/">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/ahmet.turan.kutuk?ref=br_rs">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="ts-speaker-info">
+                            <h3 class="ts-speaker-name">
+                                <a href="#">Ahmet Turan Kütük</a>
+                            </h3>
+                            <p class="ts-speaker-designation">Security Engineer</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="ts-speaker transparent">
+                        <div class="ts-speaker-image">
+                            <img class="img-responsive" src="images/speakers/2018/halil.jpg" alt="" />
+                            <ul class="social-links">
+                                <li>
+                                    <a href="https://www.instagram.com/halilbozkurt/">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="ts-speaker-info">
+                            <h3 class="ts-speaker-name">
+                                <a href="#">Halil Bozkurt</a>
+                            </h3>
+                            <p class="ts-speaker-designation">İş ve Meslek Danışmanı</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="ts-speaker transparent">
+                        <div class="ts-speaker-image">
+                            <img class="img-responsive" src="images/speakers/2018/metin.jpg" alt="" />
+                            <ul class="social-links">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="ts-speaker-info">
+                            <h3 class="ts-speaker-name">
+                                <a href="#">Metin Durmuş</a>
+                            </h3>
+                            <p class="ts-speaker-designation">Bilgisayar Mühendisi</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+<!--   KAPAT
+    <section id="ts-schedule" class="ts-schedule">
+        <div class="container">
+            <div class="row text-center">
+                <h2 class="section-title"></h2>
+                <h3 class="section-sub-title">Sakın Bir Şey Kaçırma</h3>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="schedule-tab">
+                        <ul class="nav nav-tabs" id="nav-tabs">
+                            <li class="active">
+                                <a class="animated fadeIn" href="#tab_one" data-toggle="tab">
+                                    <span class="tab-head">
+                                        <span class="tab-text-title">12 Nisan Perşembe</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="animated fadeIn" href="#tab_two" data-toggle="tab">
+                                    <span class="tab-head">
+                                        <span class="tab-text-title">13 Nisan Cuma</span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div class="tab-pane animated fadeInRight" id="tab_two">
+                                <h2 class="schedule-date">Cuma, 13 Nisan</h2>
+
+                                <div class="schedule-listing bg">
+                                    <span class="schedule-slot-time">09:30 - 10:30 </span>
+                                    <div class="schedule-slot-info">
+                                        <a href="#">
+                                            <img class="schedule-slot-speakers" src="images/speakers/2018/atif.jpg" alt="" />
+                                        </a>
+                                        <div class="schedule-slot-info-content">
+                                            <h3 class="schedule-slot-speaker-name">Atıf Ünaldı</h3>
+                                            <h4 class="schedule-slot-title">Businessweek Köşe Yazarı</h4 <p class="schedule-slot-desc">Multidisipliner Bölümlerin
+                                            Dijital Dönüşümde Alacakları Rol</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="schedule-listing">
+                                    <span class="schedule-slot-time">10:30 - 11:00</span>
+                                    <div class="schedule-slot-info">
+                                        <a href="#">
+                                            <img class="schedule-slot-speakers" src="images/coffee.png" alt="" />
+                                        </a>
+                                        <div class="schedule-slot-info-content">
+                                            <h3 class="schedule-slot-speaker-name"></h3>
+                                            <h4 class="schedule-slot-title">Kahve Molası</h4>
+                                            <p class="schedule-slot-desc">30 dakikalık kahve molası ve konuşmacılarla sohbet etme imkanı</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="schedule-listing bg">
+                                    <span class="schedule-slot-time">11:00 - 12:00</span>
+                                    <div class="schedule-slot-info">
+                                        <a href="#">
+                                            <img class="schedule-slot-speakers" src="images/speakers/2018/daron.jpg" alt="" />
+                                        </a>
+                                        <div class="schedule-slot-info-content">
+
+                                            <h3 class="schedule-slot-speaker-name">Daron Yöndem</h3>
+                                            <h4 class="schedule-slot-title">Microsoft Regional Director</h4>
+                                            <p class="schedule-slot-desc">Boş Durma Boşa Çalış</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="schedule-listing">
+                                    <span class="schedule-slot-time">12:00 - 13:00</span>
+                                    <div class="schedule-slot-info">
+                                        <a href="#">
+                                            <img class="schedule-slot-speakers" src="images/dinner.png" alt="" />
+                                        </a>
+                                        <div class="schedule-slot-info-content">
+                                            <h3 class="schedule-slot-speaker-name"></h3>
+                                            <h4 class="schedule-slot-title">Öğle Arası</h4>
+                                            <p class="schedule-slot-desc">1 saatlik temel ihtiyaç ve yemek arası</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="schedule-listing bg">
+                                    <span class="schedule-slot-time">13:00 - 14:30</span>
+                                    <div class="schedule-slot-info">
+                                        <a href="#">
+                                            <img class="schedule-slot-speakers" src="images/speakers/2018/ahmet.jpg" alt="" />
+                                        </a>
+                                        <div class="schedule-slot-info-content">
+
+                                            <h3 class="schedule-slot-speaker-name">Ahmet Turan Kütük</h3>
+                                            <h4 class="schedule-slot-title">Sony Şirketinde Security Engineer</h4>
+                                            <p class="schedule-slot-desc">Siber Güvenlik ve Sızma Testleri</p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="schedule-listing">
+                                    <span class="schedule-slot-time">14:30 - 15:00</span>
+                                    <div class="schedule-slot-info">
+                                        <a href="#">
+                                            <img class="schedule-slot-speakers" src="images/coffee.png" alt="" />
+                                        </a>
+                                        <div class="schedule-slot-info-content">
+                                            <h3 class="schedule-slot-speaker-name"></h3>
+                                            <h4 class="schedule-slot-title">Kahve Molası</h4>
+                                            <p class="schedule-slot-desc">30 dakikalık kahve molası ve konuşmacılarla sohbet etme imkanı</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="schedule-listing bg">
+                                    <span class="schedule-slot-time">15:00 - 16:30</span>
+                                    <div class="schedule-slot-info">
+                                        <a href="#">
+                                            <img class="schedule-slot-speakers" src="images/speakers/2018/daron.jpg" alt="" />
+                                        </a>
+                                        <div class="schedule-slot-info-content">
+                                            <h3 class="schedule-slot-speaker-name">Daron Yöndem</h3>
+                                            <h4 class="schedule-slot-title">Microsoft Regional Director</h4>
+                                            <p class="schedule-slot-desc">Teknik Sunum - 60 Dakikada Cloud Ninja Olun</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="schedule-listing">
+                                    <span class="schedule-slot-time">16:30 - 17:00</span>
+                                    <div class="schedule-slot-info">
+                                        <a href="#">
+                                            <img class="schedule-slot-speakers" src="images/kapanis.png" alt="" />
+                                        </a>
+                                        <div class="schedule-slot-info-content">
+                                            <h3 class="schedule-slot-speaker-name"></h3>
+                                            <h4 class="schedule-slot-title">Kapanış</h4>
+                                            <p class="schedule-slot-desc">Plaket töreni ve gün sonu konuşmaları.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="tab-pane active animated fadeInRight" id="tab_one">
+                                <h2 class="schedule-date">Perşembe, 12 Nisan</h2>
+
+                                <div class="schedule-listing bg">
+                                    <span class="schedule-slot-time">9:30 - 10:30</span>
+                                    <div class="schedule-slot-info">
+                                        <a href="#">
+                                            <img class="schedule-slot-speakers" src="images/acilis.png" alt="" />
+                                        </a>
+                                        <div class="schedule-slot-info-content">
+                                            <h3 class="schedule-slot-title">Açılış</h3>
+                                            <p class="schedule-slot-desc">İstiklal Marşı, Açılış konuşması, Müzik dinletisi</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="schedule-listing">
+                                    <span class="schedule-slot-time">10:30 - 12:00</span>
+                                    <div class="schedule-slot-info">
+                                        <a href="#">
+                                            <img class="schedule-slot-speakers" src="images/speakers/2018/bulent.jpg" alt="" />
+                                        </a>
+                                        <div class="schedule-slot-info-content">
+                                            <h3 class="schedule-slot-speaker-name">Bülent Kutlu</h3>
+                                            <h4 class="schedule-slot-title">Chief Digital Officer</h4>
+                                            <p class="schedule-slot-desc">Dijital Dönüşümü Anlamak.</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="schedule-listing bg">
+                                    <span class="schedule-slot-time">12:00 - 13:00</span>
+                                    <div class="schedule-slot-info">
+                                        <a href="#">
+                                            <img class="schedule-slot-speakers" src="images/dinner.png" alt="" />
+                                        </a>
+                                        <div class="schedule-slot-info-content">
+
+
+                                            <h3 class="schedule-slot-speaker-name"></h3>
+                                            <h4 class="schedule-slot-title">Öğle Arası</h4>
+                                            <p class="schedule-slot-desc">1 saatlik temel ihtiyaç ve yemek arası</p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+                                <div class="schedule-listing">
+                                    <span class="schedule-slot-time">13:00 - 14:30</span>
+                                    <div class="schedule-slot-info">
+                                        <a href="#">
+                                            <img class="schedule-slot-speakers" src="images/speakers/2018/tugba.jpg" alt="" />
+                                        </a>
+                                        <div class="schedule-slot-info-content">
+                                            <h3 class="schedule-slot-speaker-name">Tuğba Bademci</h3>
+                                            <h4 class="schedule-slot-title">İzgören Akademi Kişisel Gelişim Eğitmeni</h4>
+                                            <p class="schedule-slot-desc">Kendi Hayatının Lideri Ol</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="schedule-listing bg">
+                                    <span class="schedule-slot-time">14:30 - 15:00</span>
+                                    <div class="schedule-slot-info">
+                                        <a href="#">
+                                            <img class="schedule-slot-speakers" src="images/coffee.png" alt="" />
+                                        </a>
+                                        <div class="schedule-slot-info-content">
+                                            <h3 class="schedule-slot-speaker-name"></h3>
+                                            <h4 class="schedule-slot-title">Kahve Molası</h4>
+                                            <p class="schedule-slot-desc">30 dakikalık kahve molası ve konuşmacılarla sohbet etme imkanı</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="schedule-listing">
+                                    <span class="schedule-slot-time">15:00 - 16:00</span>
+                                    <div class="schedule-slot-info">
+                                        <a href="#">
+                                            <img class="schedule-slot-speakers" src="images/speakers/2018/metin.jpg" alt="" />
+                                        </a>
+                                        <div class="schedule-slot-info-content">
+
+                                            <h3 class="schedule-slot-speaker-name">Metin Durmuş</h3>
+                                            <h4 class="schedule-slot-title">Bilgisayar Mühendisi</h4>
+                                            <p class="schedule-slot-desc">Yapay Zeka Üzerine</p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="schedule-listing bg">
+                                    <span class="schedule-slot-time">16:00 - 16:15</span>
+                                    <div class="schedule-slot-info">
+                                        <a href="#">
+                                            <img class="schedule-slot-speakers" src="images/coffee.png" alt="" />
+                                        </a>
+                                        <div class="schedule-slot-info-content">
+                                            <h3 class="schedule-slot-speaker-name"></h3>
+                                            <h4 class="schedule-slot-title">Kahve Molası</h4>
+                                            <p class="schedule-slot-desc">30 dakikalık kahve molası ve konuşmacılarla sohbet etme imkanı</p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="schedule-listing">
+                                    <span class="schedule-slot-time">16:15 - 17:00</span>
+                                    <div class="schedule-slot-info">
+                                        <a href="#">
+                                            <img class="schedule-slot-speakers" src="images/speakers/2018/halil.jpg" alt="" />
+                                        </a>
+                                        <div class="schedule-slot-info-content">
+
+                                            <h3 class="schedule-slot-speaker-name">Halil Bozkurt</h3>
+                                            <h4 class="schedule-slot-title">İşkur - İş ve Meslek Danışmanı</h4>
+                                            <p class="schedule-slot-desc">Kariyerinize Devlet Desteği (İş Arama Becerileri ve Destekler)</p>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="schedule-listing bg">
+                                    <span class="schedule-slot-time">17:00 - 17:30</span>
+                                    <div class="schedule-slot-info">
+                                        <a href="#">
+                                            <img class="schedule-slot-speakers" src="images/kapanis.png" alt="" />
+                                        </a>
+                                        <div class="schedule-slot-info-content">
+                                            <h3 class="schedule-slot-speaker-name"></h3>
+                                            <h4 class="schedule-slot-title">Kapanış</h4>
+                                            <p class="schedule-slot-desc">Gün sonu konuşmaları ve kapanış.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="gap-60"></div>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <!--<section id="ts-newsletter" class="ts-newsletter">
+            <div class="container">
+                <div class="row">
+                    <div class="newsletter-form clearfix">
+                        <div class="col-md-4 col-xs-12">
+                            <h2>Güncellemelerimizi ilk duyan siz olun</h2>
+                            <h3>Duyurulara Abone Ol</h3>
+                        </div>
+               
+                        <div class="col-md-8 col-xs-12">
+                            <form action="#" method="post">
+                                <div class="form-group">
+                                    <input type="email" name="email" id="newsletter-form-email" class="form-control form-control-lg" placeholder="E-mail adresinizi giriniz"
+                                        autocomplete="off">
+                                    <button class="btn btn-primary">ABONE OL</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>-->
+    <section id="ts-sponsors" class="ts-sponsors">
+        <div class="container">
+            <div class="row text-center">
+                <h2 class="section-title">Projemizi Destekleyenler</h2>
+                <p class="section-sub-title">Etkinlik Sponsorları</p>
+            </div>
+            <div class="row sponsor-padding text-center partner-sponsor">
+                    <h3 style="font-size:24px;" class="sponsor-title">Partnerlerimiz</h3>
+                <div class="sponsor">
+                    
+                    <div style="display:flex; justify-content:center" class="col-xs-12 col-md-6  ">
+                        <a href="https://www.facebook.com/ankastresarayi/" target="_blank" class="">
+                            <img class="img-responsive" src="images/sponsors/2018/ankastre.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row text-center altin-sponsor ">
+                <h3 style="font-size:24px;" class="sponsor-title">Altın Sponsorlar</h3>
+                <div class="sponsor">
+                    <div class="col-xs-12 col-sm-4 col-md-4 sponsor display-flex">
+                        <a href="http://www.erdemli.bel.tr/" target="_blank" class="">
+                            <img class="img-responsive" src="images/sponsors/2018/belediye.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 sponsor display-flex">
+                        <a href="https://www.instagram.com/limemediatr/" target="_blank" class="">
+                            <img class="img-responsive" src="images/sponsors/2018/lime.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 sponsor display-flex">
+                        <a href="http://www.erdemlitso.org.tr/" target="_blank" class="">
+                            <img class="img-responsive" src="images/sponsors/2018/etso.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center gumus">
+
+                <h3 style="margin-top:0; font-size:24px;" class="sponsor-title">Gümüş Sponsorlar</h3>
+                <div class="sponsor">
+                    <div class="col-xs-12 col-sm-4 col-md-2 display-flex">
+                        <a href="https://www.instagram.com/miskinsanat/" target="_blank" class="">
+                            <img class="img-responsive" src="images/sponsors/2018/miskin.png" alt="" />
+                        </a>
+                    </div>
+                   
+                    <div class="col-xs-12 col-sm-4 col-md-2 display-flex">
+                        <a href="http://deryasurucukursu.com/" target="_blank" class="">
+                            <img class="img-responsive" src="images/sponsors/2018/derya-surucu.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-2">
+                        <a href="https://www.burakhaleplilerinsaat.com/" target="_blank" class="">
+                            <img class="img-responsive" src="images/sponsors/2018/burak-halepliler.png" alt="" />
+                        </a>
+                    </div>
+                    </div>
+                    <div class="sponsor">
+                    <div class="col-xs-12 col-sm-4 col-md-2 display-flex">
+                        <a href="https://www.facebook.com/1cengiz.usta/" target="_blank" class="">
+                            <img class="img-responsive" src="images/sponsors/2018/bahattin.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-2 display-flex">
+                        <a href="#" target="_blank" class="">
+                            <img class="img-responsive" src="images/sponsors/2018/bosch.png" alt="" />
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-md-push-3 bronz text-center">
+                <h3>Bronz Sponsorlarımız</h3>
+                <div class="sponsor">
+                        <div class="col-xs-12 col-sm-4 col-md-3 display-flex">
+                                <a href="https://www.facebook.com/serdal2323kaya/" target="_blank" class="">
+                                    <img class="img-responsive" src="images/sponsors/2018/sedir.png" alt="" />
+                                </a>
+                            </div>
+                    <div class="col-xs-12 col-sm-4 col-md-3 display-flex">
+                        <a href="http://www.mehmetefendi.com/" target="_blank" class="">
+                            <img class="img-responsive" src="images/sponsors/2018/mehmet-efendi.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-3 display-flex">
+                        <a href="https://www.turancicekcilik.com/" target="_blank" class="">
+                            <img class="img-responsive" src="images/sponsors/2018/turan.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-3 display-flex">
+                        <a href="https://www.redbull.com/tr-tr/" target="_blank" class="">
+                            <img class="img-responsive" src="images/sponsors/2018/red-bull.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-3 display-flex">
+                        <a href="http://www.senbebe.com/" target="_blank" class="">
+                            <img class="img-responsive" src="images/sponsors/2018/senbebe.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="general-btn text-center">
+                    <a class="btn btn-primary" href="#">Sponsor Ol</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--<section id="ts-pricing" class="ts-pricing">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="ts-pricing-box">
+                            <div class="ts-pricing-header">
+                                <h2 class="ts-pricing-name">Gümüş Sponsorluk</h2>
+                                <h2 class="ts-pricing-price">
+                                    <span class="currency">₺</span>
+                                    <strong>250 - 500</strong>
+                                </h2>
+                            </div>
+                            <div class="ts-pricing-features">
+                                <ul class="list-unstyled">
+                                    <li class="check">Get Access to all Sessions</li>
+                                    <li class="check">Unlimited Coffee and Foods</li>
+                                    <li class="un-check">Meet with Favorite Speakers</li>
+                                    <li class="un-check">Access to all Audio and Video Files</li>
+                                </ul>
+                            </div>
+                            <div class="plan-action">
+                                <a href="#" class="btn btn-primary">
+                                    <i class="fa fa-ticket"></i> Şimdi Başvur</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="ts-pricing-box pricing-featured">
+                            <div class="ts-pricing-header">
+                                <h2 class="ts-pricing-name">Altın Sponsorluk</h2>
+                                <h2 class="ts-pricing-price">
+                                    <span class="currency">₺</span>
+                                    <strong>500 - 1000</strong>
+
+                                </h2>
+                            </div>
+                            <div class="ts-pricing-features">
+                                <ul class="list-unstyled">
+                                    <li class="check">Get Access to all Sessions</li>
+                                    <li class="check">Unlimited Coffee and Foods</li>
+                                    <li class="check">Meet with Favorite Speakers</li>
+                                    <li class="un-check">Access to all Audio and Video Files</li>
+                                </ul>
+                            </div>
+                           
+                            <div class="plan-action">
+                                <a href="#" class="btn btn-primary">
+                                    <i class="fa fa-ticket"></i> Şimdi Başvur</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="ts-pricing-box">
+                            <div class="ts-pricing-header">
+                                <h2 class="ts-pricing-name">Platinyum Sponsorluk</h2>
+                                <h2 class="ts-pricing-price">
+                                    <span class="currency">₺</span>
+                                    <strong>+1000</strong>
+
+                                </h2>
+                            </div>
+                            <div class="ts-pricing-features">
+                                <ul class="list-unstyled">
+                                    <li class="check">Get Access to all Sessions</li>
+                                    <li class="check">Unlimited Coffee and Foods</li>
+                                    <li class="check">Meet with Favorite Speakers</li>
+                                    <li class="check">Access to all Audio and Video Files</li>
+                                </ul>
+                            </div>
+                            <div class="plan-action">
+                                <a href="#" class="btn btn-primary">
+                                    <i class="fa fa-ticket"></i> Şimdi Başvur</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>-->
+    <section id="ts-gallery" class="ts-gallery">
+        <div class="container">
+            <div class="row text-center">
+                <h2 class="section-title">İTZ'17</h2>
+                <h3 class="section-sub-title">Fotoğraf Galerisi</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="gallery-container">
+                        <a class="gallery-popup" href="images/gallery/gallery1.jpg">
+                            <img class="img-responsive" src="images/gallery/gallery1.jpg" alt="">
+                            <span class="gallery-icon">
+                                <i class="fa fa-search"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="gallery-container">
+                        <a class="gallery-popup" href="images/gallery/gallery2.jpg">
+                            <img class="img-responsive" src="images/gallery/gallery2.jpg" alt="">
+                            <span class="gallery-icon">
+                                <i class="fa fa-search"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="gallery-container">
+                        <a class="gallery-popup" href="images/gallery/gallery3.jpg">
+                            <img class="img-responsive" src="images/gallery/gallery3.jpg" alt="">
+                            <span class="gallery-icon">
+                                <i class="fa fa-search"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="gallery-container">
+                        <a class="gallery-popup" href="images/gallery/gallery4.jpg">
+                            <img class="img-responsive" src="images/gallery/gallery4.jpg" alt="">
+                            <span class="gallery-icon">
+                                <i class="fa fa-search"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="gallery-container">
+                        <a class="gallery-popup" href="images/gallery/gallery5.jpg">
+                            <img class="img-responsive" src="images/gallery/gallery5.jpg" alt="">
+                            <span class="gallery-icon">
+                                <i class="fa fa-search"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="gallery-container">
+                        <a class="gallery-popup" href="images/gallery/gallery6.jpg">
+                            <img class="img-responsive" src="images/gallery/gallery6.jpg" alt="">
+                            <span class="gallery-icon">
+                                <i class="fa fa-search"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ts-venue" class="ts-venue">
+        <div class="container">
+            <div class="row text-center">
+                <h2 class="section-title">Nereden Ulaşabilirsiiz</h2>
+                <h3 class="section-sub-title">Konum ve Bilgiler</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Etkinlik Binası Detayları</h3>
+                    <p>Erdemli Kültür Merkezi, çeşitli gruplar ile farklı disiplinler arası etkileşimin canlanması için çalışıyor.
+                        İçinde pek çok fonksiyonu barındıran EKM'de eğitim ve teknik laboratuvarları bulunuyor. Merkezde;
+                        halk kütüphanesi, sinemalar, belediye ofisleri ve oditoryum da yer alıyor. </p>
+                    <div class="contact-info">
+                        <div class="contact-info-box">
+                            <i class="fa fa-map-marker">&nbsp;</i>
+                            <div class="contact-info-box-content">
+                                <h4>Adres: </h4>
+                                <p>Erdemoğlu Blv. No:117, 33730 Erdemli/Mersin</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-box">
+                            <i class="fa fa-envelope-o">&nbsp;</i>
+                            <div class="contact-info-box-content">
+                                <h4>Email: </h4>
+                                <p>info@isletmecilikveteknolojizirvesi.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-box">
+                            <i class="fa fa-phone">&nbsp;</i>
+                            <div class="contact-info-box-content">
+                                <h4>Telefon: </h4>
+                                <p>Duygu Uçar : 0534 856 7968 </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <img class="img-responsive img-thumbnail" src="images/venue-img.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-logo">
+                        <div class="logo">
+                            <a href="index.html">
+                                <span class="itz">İTZ</span>
+                                <span class="itz2">'19</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-social">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/isletmecilikveteknolojizirvesi/" target="blank">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/erdemliitz" target="blank">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/isletmecilikveteknoloji/" target="blank">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="copyright-info">
+                        <span>Copyright © 2017 İTZ. Tüm hakları saklıdır..</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix">
+            <button class="btn btn-primary" title="Yukarı Dön">
+                <i class="fa fa-angle-up"></i>
+            </button>
+        </div>
+
+    </footer>
+    <!-- Footer end -->
+    <!-- Javascript Files
+	================================================== -->
+
+    <!-- initialize jQuery Library -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <!-- Bootstrap jQuery -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- Counter -->
+    <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+    <!-- Countdown -->
+    <script type="text/javascript" src="js/jquery.jCounter.js"></script>
+    <!-- Waypoints -->
+    <script type="text/javascript" src="js/waypoints.min.js"></script>
+    <!-- Color box for Popup-->
+    <script type="text/javascript" src="js/jquery.colorbox.js"></script>
+    <!-- Smoothscroll -->
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
+    <!-- Google Map Plugin-->
+    <script type="text/javascript" src="js/gmap3.js"></script>
+    <!-- Template custom -->
+    <script type="text/javascript" src="js/custom.js"></script>
+    </div>
+</body>
+
+</html>
